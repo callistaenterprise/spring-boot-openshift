@@ -10,6 +10,6 @@ public class HelloWildFlyController {
     @RequestMapping("hello")
     public String sayHello(){
         
-        return ("Hello, SpringBoot app on Wildfly, v1.1");
+        return ("Hello from branch, SpringBoot app on Wildfly, v1.1");
     }
 }
