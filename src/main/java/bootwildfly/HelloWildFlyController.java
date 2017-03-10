@@ -9,6 +9,7 @@ public class HelloWildFlyController {
 
     @RequestMapping("hello")
     public String sayHello(){
-        return ("Hello, Magnus SpringBoot app on Wildfly, v1");
+        
+        return ("Hello from branch, SpringBoot app on Wildfly, v1.1");
     }
 }
